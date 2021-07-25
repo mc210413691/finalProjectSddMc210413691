@@ -22,7 +22,7 @@ public class Giant extends Critter{
         int Remaining = count%24;
 
         if(Remaining<6) { return "fee"; }
-        else if(Remaining >= 6 && Remaining < 12) { return "foe"; }
+        else if(Remaining >= 6 && Remaining < 12) { return "fie"; }
         else if(Remaining >= 12 && Remaining < 18) { return "fum"; }
         else if(Remaining >= 18 && Remaining < 24) { return "foe"; }
         else return "fee";
